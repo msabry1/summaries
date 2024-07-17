@@ -21,7 +21,7 @@
             } // error because compiler implicitly call default Base() constructor but it don't find it
         };
         ```
-    - you can use Base constuctor using ```using Base::Base;```
+    - you can use Base constructor using ```using Base::Base;```
         But if derived constructor has same params it will override Base class and the compiler will implicitly call base class default constructor
 - **Overriding Member Functions:**
     ```cpp
